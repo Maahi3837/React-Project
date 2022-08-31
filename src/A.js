@@ -9,7 +9,6 @@ export default function A({children}) {
 
   return (
     <div>
-     
       {state.name}
       <h1>A</h1>
     </div>

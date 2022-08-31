@@ -11,6 +11,7 @@ export default function AppState(props) {
     console.log("Loogin here");
   }
 
+
   return <AppContext.Provider value={{store,logSomething}}>
      {props.children}
   </AppContext.Provider>;
